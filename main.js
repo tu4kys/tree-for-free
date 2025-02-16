@@ -6,7 +6,7 @@ app = express();
 
 app.use(express.static(path.join(__dirname)));
 
-const createPath = (page) => path.resolve(__dirname, './Resources', `${page}.html`);
+const createPath = (page) => path.resolve(__dirname, './docs', `${page}.html`);
 
 app.get('/', (req, res) => {
     res.sendFile(createPath('index'))
