@@ -1,0 +1,16 @@
+{
+  "name": "treeforfree",
+  "version": "1.0.0",
+  "description": "Simple site for treeforfree",
+  "repository": {
+    "type": "git",
+    "url": "tree-for-free"
+  },
+  "license": "ISC",
+  "author": "xingynik/tu4kys",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
